@@ -1,0 +1,8 @@
+{
+  "recommendations": [
+    "alexkrechik.cucumberautocomplete",
+    "cucumber.cucumber-official",
+    "ms-playwright.playwright",
+    "esbenp.prettier-vscode"
+  ]
+}

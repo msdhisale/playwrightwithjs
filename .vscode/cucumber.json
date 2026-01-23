@@ -1,0 +1,4 @@
+{
+  "features": ["features/**/*.feature"],
+  "glue": ["steps/**/*.js", "support/**/*.js"]
+}

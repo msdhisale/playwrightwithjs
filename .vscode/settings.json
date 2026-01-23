@@ -1,0 +1,18 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[gherkin]": {
+    "editor.defaultFormatter": "alexkrechik.cucumberautocomplete"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "cucumber.codeLens": true,
+  "cucumber.features": ["features/**/*.feature"],
+  "cucumber.glue": ["steps/**/*.js", "support/**/*.js"],
+  "cucumberautocomplete.steps": ["steps/**/*.js"],
+  "cucumberautocomplete.syncFeatures": "steps/**/*.js",
+  "cucumberautocomplete.strictGherkinCompletion": false,
+  "cucumberautocomplete.customParameters": [],
+  "gherkin.codeLens": true
+}

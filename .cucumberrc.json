@@ -1,0 +1,12 @@
+{
+  "default": {
+    "features": ["features/**/*.feature"],
+    "glue": ["steps/**/*.js", "support/**/*.js"],
+    "require": ["support/**/*.js", "steps/**/*.js"],
+    "format": [
+      "progress-bar",
+      "html:reports/cucumber-report.html",
+      "json:reports/cucumber-report.json"
+    ]
+  }
+}
