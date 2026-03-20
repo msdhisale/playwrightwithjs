@@ -4,13 +4,19 @@
   "description": "Cucumber BDD Framework with Page Object Model for TodoMVC",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js",
-    "test:smoke": "cucumber-js --tags @smoke",
-    "test:sanity": "cucumber-js --tags @sanity",
-    "test:regression": "cucumber-js --tags @regression",
-    "test:positive": "cucumber-js --tags @positive",
-    "test:negative": "cucumber-js --tags @negative",
-    "report": "node scripts/generatePdfReport.js"
+    "test": "cucumber-js --profile default",
+    "test:smoke": "cucumber-js --profile smoke",
+    "test:sanity": "cucumber-js --profile sanity",
+    "test:regression": "cucumber-js --profile regression",
+    "test:positive": "cucumber-js --profile positive",
+    "test:negative": "cucumber-js --profile negative",
+    "report": "node scripts/generatePdfReport.js",
+    "report:extent": "node scripts/generateExtentReport.js",
+    "report:extent:smoke": "node scripts/generateExtentReport.js smoke",
+    "report:extent:sanity": "node scripts/generateExtentReport.js sanity",
+    "report:extent:positive": "node scripts/generateExtentReport.js positive",
+    "report:extent:negative": "node scripts/generateExtentReport.js negative",
+    "report:extent:regression": "node scripts/generateExtentReport.js regression"
   },
   "keywords": [
     "Cucumber",
@@ -25,6 +31,7 @@
     "@cucumber/cucumber": "^10.0.0",
     "@playwright/test": "^1.58.0",
     "@types/node": "^25.0.10",
+    "cucumber-html-reporter": "^7.2.0",
     "pdfkit": "^0.13.0",
     "playwright": "^1.58.0",
     "puppeteer": "^24.36.0"

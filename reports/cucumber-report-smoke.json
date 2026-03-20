@@ -1,0 +1,535 @@
+[
+  {
+    "description": "  As a user\n  I want to manage my todo items\n  So that I can organize my tasks",
+    "elements": [
+      {
+        "description": "",
+        "id": "todomvc-application---complete-test-suite;add-single-todo-item",
+        "keyword": "Scenario",
+        "line": 9,
+        "name": "Add single todo item",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 5875482900
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 10,
+            "name": "I navigate to the TodoMVC application",
+            "match": {
+              "location": "steps\\todomvc-steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1051579800
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 11,
+            "name": "I add a todo with text \"Buy groceries\"",
+            "match": {
+              "location": "steps\\todomvc-steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1159469999
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "I should see the todo \"Buy groceries\" in the list",
+            "match": {
+              "location": "steps\\todomvc-steps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 9383299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 13,
+            "name": "I should see \"1 item left\" text",
+            "match": {
+              "location": "steps\\todomvc-steps.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5399100
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 288204700
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@todomvc",
+            "line": 1
+          },
+          {
+            "name": "@positive",
+            "line": 8
+          },
+          {
+            "name": "@smoke",
+            "line": 8
+          },
+          {
+            "name": "@sanity",
+            "line": 8
+          },
+          {
+            "name": "@regression",
+            "line": 8
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "todomvc-application---complete-test-suite;add-multiple-todo-items",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Add multiple todo items",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6485327400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 17,
+            "name": "I navigate to the TodoMVC application",
+            "match": {
+              "location": "steps\\todomvc-steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 914205699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "I add a todo with text \"Task 1\"",
+            "match": {
+              "location": "steps\\todomvc-steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1133958699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 19,
+            "name": "I add a todo with text \"Task 2\"",
+            "match": {
+              "location": "steps\\todomvc-steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1165375200
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 20,
+            "name": "I add a todo with text \"Task 3\"",
+            "match": {
+              "location": "steps\\todomvc-steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1063695499
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 21,
+            "name": "I should see the todo \"Task 1\" in the list",
+            "match": {
+              "location": "steps\\todomvc-steps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 21555699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 22,
+            "name": "I should see the todo \"Task 2\" in the list",
+            "match": {
+              "location": "steps\\todomvc-steps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7223299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 23,
+            "name": "I should see the todo \"Task 3\" in the list",
+            "match": {
+              "location": "steps\\todomvc-steps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5403699
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "I should see \"3 items left\" text",
+            "match": {
+              "location": "steps\\todomvc-steps.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6802799
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 287307199
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@todomvc",
+            "line": 1
+          },
+          {
+            "name": "@positive",
+            "line": 15
+          },
+          {
+            "name": "@smoke",
+            "line": 15
+          },
+          {
+            "name": "@sanity",
+            "line": 15
+          },
+          {
+            "name": "@regression",
+            "line": 15
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "todomvc-application---complete-test-suite;mark-todo-as-completed",
+        "keyword": "Scenario",
+        "line": 27,
+        "name": "Mark todo as completed",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 6049145399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 28,
+            "name": "I navigate to the TodoMVC application",
+            "match": {
+              "location": "steps\\todomvc-steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 956722400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 29,
+            "name": "I add a todo with text \"Complete task\"",
+            "match": {
+              "location": "steps\\todomvc-steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1148201299
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 30,
+            "name": "I mark the todo \"Complete task\" as completed",
+            "match": {
+              "location": "steps\\todomvc-steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 609796399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 31,
+            "name": "the todo \"Complete task\" should be marked as completed",
+            "match": {
+              "location": "steps\\todomvc-steps.js:65"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 47700300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 32,
+            "name": "I should see \"0 items left\" text",
+            "match": {
+              "location": "steps\\todomvc-steps.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5568299
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 434830400
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@todomvc",
+            "line": 1
+          },
+          {
+            "name": "@positive",
+            "line": 26
+          },
+          {
+            "name": "@smoke",
+            "line": 26
+          },
+          {
+            "name": "@sanity",
+            "line": 26
+          },
+          {
+            "name": "@regression",
+            "line": 26
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "todomvc-application---complete-test-suite;view-all-todos",
+        "keyword": "Scenario",
+        "line": 55,
+        "name": "View All todos",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 893942300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 56,
+            "name": "I navigate to the TodoMVC application",
+            "match": {
+              "location": "steps\\todomvc-steps.js:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1071776399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 57,
+            "name": "I add a todo with text \"Task 1\"",
+            "match": {
+              "location": "steps\\todomvc-steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1159194899
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 58,
+            "name": "I add a todo with text \"Task 2\"",
+            "match": {
+              "location": "steps\\todomvc-steps.js:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1071252799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 59,
+            "name": "I mark the todo \"Task 1\" as completed",
+            "match": {
+              "location": "steps\\todomvc-steps.js:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 582497700
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 60,
+            "name": "I filter todos by \"Active\"",
+            "match": {
+              "location": "steps\\todomvc-steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 597709399
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 61,
+            "name": "I filter todos by \"All\"",
+            "match": {
+              "location": "steps\\todomvc-steps.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 564873300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 62,
+            "name": "I should see the todo \"Task 1\" in the list",
+            "match": {
+              "location": "steps\\todomvc-steps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3659400
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 63,
+            "name": "I should see the todo \"Task 2\" in the list",
+            "match": {
+              "location": "steps\\todomvc-steps.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3048999
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 767967300
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@todomvc",
+            "line": 1
+          },
+          {
+            "name": "@positive",
+            "line": 54
+          },
+          {
+            "name": "@smoke",
+            "line": 54
+          },
+          {
+            "name": "@sanity",
+            "line": 54
+          },
+          {
+            "name": "@regression",
+            "line": 54
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "todomvc-application---complete-test-suite",
+    "line": 2,
+    "keyword": "Feature",
+    "name": "TodoMVC Application - Complete Test Suite",
+    "tags": [
+      {
+        "name": "@todomvc",
+        "line": 1
+      }
+    ],
+    "uri": "features\\todomvc.feature"
+  }
+]
